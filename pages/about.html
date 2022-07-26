@@ -1,261 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style/style.css" />
-    
-    <title>Raptor Media | Web Design &bull; друкована реклама &bull; Marketing</title>
-</head>
-<body>
+
+    <title>
+      Raptor Media | Web Design &bull; друкована реклама &bull; Marketing
+    </title>
+  </head>
+  <body>
     <div class="bodyFrame">
-    
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $(window).on('scroll resize touchmove', function () {
-                    if ($(window).scrollTop() > 45) $("div.banTopWrap").addClass("fixed");
-                    else $("div.banTopWrap").removeClass("fixed");
-                });
-            });
-        </script>
-        <style type="text/css">
-            header.tnew .banTopWrap {
-                position: fixed;
-                top: 0;
-            }
-    
-            header.tnew .banTopWrap .logoTop,
-            header.tnew .banTopWrap .banTop,
-            header.tnew .logoTop img {
-                transition: height 0.5s ease 0s;
-            }
-    
-            .banTopWrap.fixed {
-                background-color: white;
-                border-bottom: 1px solid #004271;
-            }
-    
-            .banTopWrap.fixed .logoTop,
-            .banTopWrap.fixed .banTop {
-                height: 50px;
-            }
-    
-            .banTopWrap.fixed .logoTop img {
-                height: 40px;
-                margin-top: 5px;
-            }
-    
-            @media only screen and (max-width: 1023px) {
-                header.tnew {
-                    line-height: normal;
-                }
-    
-                header.tnew .banTopWrap {
-                    z-index: 9999;
-                }
-    
-                .banTopWrap.fixed .logoTop,
-                .banTopWrap.fixed .banTop {
-                    height: 60px;
-                }
-            }
-        </style>
-        <header class="tnew">
-            <div class="banTopWrap">
-                <div class="banTop" data-aos="fade-in" data-aos-duration="1000">
-                    <div class="logoTop"><a href="/"><img src="./images/logo/raptor-media-logo-mobile-top.png"
-                                alt="Raptor Media Logo" title="Raptor Media"></a></div>
-                    <div class="logoMobTop"><a href="/"><img src="./images/logo/raptor-media-logo-mobile-top.png"
-                                alt="Raptor Media Logo" title="Raptor Media"></a></div>
-                    <div class="navTop">
-                        <nav>
-                            <div class="menu">
-                                <button class="smobitrigger" aria-expanded="false">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </button>
-                                <ul class="mobimenu">
-                                    <li class="mphone">
-                                        <a href="tel:(239)778-6592">(239) 778-6592</a>
-                                    </li>
-                                    <li class="maddress">
-                                        Корпорація Флориди</li>
-                                    <li class="mhours">
-                                        Mon-Fri: 9am - 7pm</li>
-    
-                                    <li class="mlinks"><a href="../pages/how-it-works.html">як це працює</a></li>
-                                    <li class="mlinks"><a href="../pages/pricing.html">прайс</a></li>
-                                    <li class="mlinks"><a href="../pages/marketing.html">маркетинг</a></li>
-                                    <li class="mlinks"><a href="../pages/our-work.html">наші роботи</a></li>
-                                    <li class="mlinks"><a href="../pages/our-team.html">команда</a></li>
-                                    <li class="mlinks last"><a href="../pages/contact.html">контакти</a></li>
-                                    <li class="mlinks2"><a href="../pages/about.html">Про нас</a></li>
-                                    <li class="mlinks2"><a href="../pages/glossary.html">Глосарій</a></li>
-                                    <li class="mlinks2"><a href="../pages/reviewus.html">Review Us</a></li>
-                                    <li class="mlinks2"><a href="../pages/terms-of-service.php">Умови обслуговування</a></li>
-                                </ul>
-                                <div class="mobimenu-overlay"></div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $(window).on("scroll resize touchmove", function () {
+            if ($(window).scrollTop() > 45)
+              $("div.banTopWrap").addClass("fixed");
+            else $("div.banTopWrap").removeClass("fixed");
+          });
+        });
+      </script>
+      <style type="text/css">
+        header.tnew .banTopWrap {
+          position: fixed;
+          top: 0;
+        }
+
+        header.tnew .banTopWrap .logoTop,
+        header.tnew .banTopWrap .banTop,
+        header.tnew .logoTop img {
+          transition: height 0.5s ease 0s;
+        }
+
+        .banTopWrap.fixed {
+          background-color: white;
+          border-bottom: 1px solid #004271;
+        }
+
+        .banTopWrap.fixed .logoTop,
+        .banTopWrap.fixed .banTop {
+          height: 50px;
+        }
+
+        .banTopWrap.fixed .logoTop img {
+          height: 40px;
+          margin-top: 5px;
+        }
+
+        @media only screen and (max-width: 1023px) {
+          header.tnew {
+            line-height: normal;
+          }
+
+          header.tnew .banTopWrap {
+            z-index: 9999;
+          }
+
+          .banTopWrap.fixed .logoTop,
+          .banTopWrap.fixed .banTop {
+            height: 60px;
+          }
+        }
+      </style>
+      <header class="tnew">
+        <div class="banTopWrap">
+          <div class="banTop" data-aos="fade-in" data-aos-duration="1000">
+            <div class="logoTop">
+              <a href="/"
+                ><img
+                  src="../images/logo/raptor-media-logo-mobile-top.png"
+                  alt="Raptor Media Logo"
+                  title="Raptor Media"
+              /></a>
             </div>
-        </header>
-        <!-- begin content -->
-        <main>
-    
-            <section id="aboutbg">
-                <div class="pageFull aboutbg">
-    
-    
-                    <div class="aboutbanCenWrapDesk">
-                        <h1>about us</h1>
-                    </div>
-    
-                    <div class="aboutbanCenWrapMob">
-                        <img src="/images/about/aboutbanMob.jpg" alt="About Raptor Media" title="About Raptor Media">
-                        <div class="aboutFullCenWrap">
-                            <div class="aboutCenWrapMob">
-                                <h1>about us</h1>
-                                <p>Raptor Media</p>
-                            </div>
-                        </div>
-                    </div>
-    
-    
-                </div>
-            </section>
-    
-    
-            <section id="abouttext">
-                <div class="pageFull aboutText">
-                    <div class="pageSub">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula posuere eros ac vulputate.
-                            Nulla ultrices enim sapien, ac lacinia diam venenatis in. Etiam vehicula, nisi ut tincidunt
-                            congue, ipsum sapien consequat tortor, at placerat tellus urna vel ante. Ut condimentum molestie
-                            sem at malesuada. Mauris pellentesque viverra ipsum ac efficitur. Praesent at volutpat urna.
-                            Pellentesque eu neque neque. Etiam viverra magna et lorem lobortis tristique.</p>
-                        <p>Phasellus ullamcorper congue turpis quis luctus. Nunc ac fermentum turpis. In hac habitasse
-                            platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec et congue
-                            sem. Sed imperdiet at sapien at vulputate. Nullam ipsum elit, bibendum sit amet placerat vel,
-                            ultricies vitae erat.</p>
-                        <p>Praesent vehicula enim at augue lacinia malesuada. Aliquam a consequat diam, quis rutrum mi.
-                            Donec eu turpis malesuada, dictum urna sit amet, ultricies velit. Nunc tincidunt vestibulum
-                            magna, eget fringilla metus viverra at. Orci varius natoque penatibus et magnis dis parturient
-                            montes, nascetur ridiculus mus. Mauris et tristique magna. Fusce eu ipsum id nulla blandit
-                            suscipit sed non magna. Etiam a diam quis purus finibus fringilla. Vivamus vel metus convallis,
-                            efficitur risus nec, tempor orci. Duis faucibus volutpat iaculis. Curabitur faucibus urna a
-                            interdum accumsan. Vestibulum volutpat venenatis tortor consequat dignissim. Aliquam et nisi
-                            eros. Etiam non tincidunt enim. Morbi eros diam, vulputate et vulputate ac, imperdiet sit amet
-                            felis.</p>
-                    </div>
-                </div>
-            </section>
-    
-    
-        </main>
-        <!-- end content -->
-    
-    
-    
-        <footer>
-            <div class="pageFull foobg">
-                <div class="footSize">
-    
-                    <div class="footWrapper">
-                        <div class="footLeft">
-                            <div class="footLogo">
-                                <a href="/" title="home"><img src="/images/logo/raptor-media-logo-mobile-footer.png"
-                                        alt="Raptor Media Logo" title="Raptor Media"></a>
-                            </div>
-                            <div class="footLeftMenu">
-                                <ul>
-                                    <li class="mlinks"><a href="/portfolio-logo-design/">portfolio logo design</a></li>
-                                    <li class="mlinks"><a href="/portfolio-social-media/">portfolio social media</a></li>
-                                    <li class="mlinks"><a href="/google-ads/">google ads</a></li>
-                                    <li class="mlinks"><a href="/about/">about</a></li>
-                                    <li class="mlinks"><a href="/glossary/">glossary</a></li>
-                                    <li class="mlinks"><a href="/review-us/">review us</a></li>
-                                    <li class="mlinks"><a href="/terms-of-service/">Terms of service</a></li>
-                                </ul>
-                            </div>
-                        </div>
-    
-                        <div class="footRight">
-                            <div class="footRightIn">
-                                <div class="leftClock">
-                                    <img src="/images/index/clock-red.png" alt="Hours Icon" title="Hours">
-                                    <p><span>Working Hours</span> Mon-Fri: 9am - 7pm</p>
-                                </div>
-                                <div class="rightPhone">
-                                    <img src="/images/index/phone-red.png" alt="Phone Icon" title="Phone">
-                                    <p><span><a href="tel:(239)778-6592">Call Us: (239) 778-6592</a></span> A Florida
-                                        Corporation</p>
-                                </div>
-                            </div>
-    
-                            <div class="footRightMenu">
-                                <ul>
-                                    <li class="mphone">
-                                        <a href="tel:(239)778-6592">(239) 778-6592</a>
-                                    </li>
-                                    <li class="maddress">
-                                        A Florida Corporation</li>
-                                    <li class="mhours">
-                                        Mon-Fri: 9am - 7pm</li>
-    
-                                    <li class="mlinks"><a href="/how-it-works/">how it works</a></li>
-                                    <li class="mlinks"><a href="/pricing/">pricing</a></li>
-                                    <li class="mlinks"><a href="/google-ads/">marketing</a></li>
-                                    <li class="mlinks"><a href="/our-work/">our work</a></li>
-                                    <li class="mlinks"><a href="/our-team/">our team</a></li>
-                                    <li class="mlinks last"><a href="/contact/">contact</a></li>
-                                    <li class="mlinks2"><a href="about.php">About</a></li>
-                                    <li class="mlinks2"><a href="glossary.php">Glossary</a></li>
-                                    <li class="mlinks2"><a href="reviewus.php">Review Us</a></li>
-                                    <li class="mlinks2"><a href="terms-of-service.php">Terms of service</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-    
-    
-                </div>
+            <div class="logoMobTop">
+              <a href="/"
+                ><img
+                  src="../images/logo/raptor-media-logo-mobile-top.png"
+                  alt="Raptor Media Logo"
+                  title="Raptor Media"
+              /></a>
             </div>
-            <div class="copy">
-                <p>&copy; Raptor Media</p>
+            <div class="navTop">
+              <nav>
+                <div class="menu">
+                  <button class="smobitrigger" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+                  <ul class="mobimenu">
+                    <li class="mphone">
+                      <a href="tel:(239)778-6592">(239) 778-6592</a>
+                    </li>
+                    <li class="maddress">Корпорація Флориди</li>
+                    <li class="mhours">Mon-Fri: 9am - 7pm</li>
+
+                    <li class="mlinks">
+                      <a href="../pages/how-it-works.html">як це працює</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/pricing.html">прайс</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/marketing.html">маркетинг</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/our-work.html">наші роботи</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/our-team.html">команда</a>
+                    </li>
+                    <li class="mlinks last">
+                      <a href="../pages/contact.html">контакти</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/about.html">Про нас</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/glossary.html">Глосарій</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/reviewus.html">Review Us</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/terms-of-service.php"
+                        >Умови обслуговування</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="mobimenu-overlay"></div>
+                </div>
+              </nav>
             </div>
-        </footer>
-    
-    
-        <div class="outerSticky">
-            <div class="stickyFooter">
-                <!-- Start of stickyFooter -->
-                <div class="innerStickyFooter">
-                    <!-- Start of innerStickyFooter -->
-                    <div class="centeringSticky">
-                        <!-- Start of centeringSticky -->
-                        <div class="sticky1">
-                            <a href="tel:(239)778-6592" itemscope="" itemtype="http://schema.org/LocalBusiness">
-                                <img src="/images/icon-smart-phone.svg" alt="Icon smartphone" title="Smartphone">
-                                <p itemprop="telephone">Call (239) 778-6592</p>
-                            </a>
-                        </div>
-                    </div><!-- End of centeringSticky -->
-                </div><!-- End of innerStickyFooter -->
-            </div><!-- End of stickyFooter -->
+          </div>
         </div>
-    
-        <a href="#0" class="to-top">to top</a>
-    
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
-        <script src="/js/scriptnew.js"></script>
-    
-    
+      </header>
+      <!-- begin content -->
+      <main>
+        <section id="aboutbg">
+          <div class="pageFull aboutbg">
+            <div class="aboutbanCenWrapDesk">
+              <h1>about us</h1>
+            </div>
+
+            <div class="aboutbanCenWrapMob">
+              <img
+                src="../images/about/aboutbanMob.jpg"
+                alt="About Raptor Media"
+                title="About Raptor Media"
+              />
+              <div class="aboutFullCenWrap">
+                <div class="aboutCenWrapMob">
+                  <h1>about us</h1>
+                  <p>Raptor Media</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="abouttext">
+          <div class="pageFull aboutText">
+            <div class="pageSub">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                vehicula posuere eros ac vulputate. Nulla ultrices enim sapien,
+                ac lacinia diam venenatis in. Etiam vehicula, nisi ut tincidunt
+                congue, ipsum sapien consequat tortor, at placerat tellus urna
+                vel ante. Ut condimentum molestie sem at malesuada. Mauris
+                pellentesque viverra ipsum ac efficitur. Praesent at volutpat
+                urna. Pellentesque eu neque neque. Etiam viverra magna et lorem
+                lobortis tristique.
+              </p>
+              <p>
+                Phasellus ullamcorper congue turpis quis luctus. Nunc ac
+                fermentum turpis. In hac habitasse platea dictumst. Interdum et
+                malesuada fames ac ante ipsum primis in faucibus. Donec et
+                congue sem. Sed imperdiet at sapien at vulputate. Nullam ipsum
+                elit, bibendum sit amet placerat vel, ultricies vitae erat.
+              </p>
+              <p>
+                Praesent vehicula enim at augue lacinia malesuada. Aliquam a
+                consequat diam, quis rutrum mi. Donec eu turpis malesuada,
+                dictum urna sit amet, ultricies velit. Nunc tincidunt vestibulum
+                magna, eget fringilla metus viverra at. Orci varius natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Mauris et tristique magna. Fusce eu ipsum id nulla blandit
+                suscipit sed non magna. Etiam a diam quis purus finibus
+                fringilla. Vivamus vel metus convallis, efficitur risus nec,
+                tempor orci. Duis faucibus volutpat iaculis. Curabitur faucibus
+                urna a interdum accumsan. Vestibulum volutpat venenatis tortor
+                consequat dignissim. Aliquam et nisi eros. Etiam non tincidunt
+                enim. Morbi eros diam, vulputate et vulputate ac, imperdiet sit
+                amet felis.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- end content -->
+
+      <footer>
+        <div class="pageFull foobg">
+          <div class="footSize">
+            <div class="footWrapper">
+              <div class="footLeft">
+                <div class="footLogo">
+                  <a href="/" title="home"
+                    ><img
+                      src="../images/logo/raptor-media-logo-mobile-footer.png"
+                      alt="Raptor Media Logo"
+                      title="Raptor Media"
+                  /></a>
+                </div>
+                <div class="footLeftMenu">
+                  <ul>
+                    <li class="mlinks">
+                      <a href="/portfolio-logo-design/"
+                        >portfolio logo design</a
+                      >
+                    </li>
+                    <li class="mlinks">
+                      <a href="/portfolio-social-media/"
+                        >portfolio social media</a
+                      >
+                    </li>
+                    <li class="mlinks">
+                      <a href="/google-ads/">google ads</a>
+                    </li>
+                    <li class="mlinks"><a href="/about/">about</a></li>
+                    <li class="mlinks"><a href="/glossary/">glossary</a></li>
+                    <li class="mlinks"><a href="/review-us/">review us</a></li>
+                    <li class="mlinks">
+                      <a href="/terms-of-service/">Terms of service</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footRight">
+                <div class="footRightIn">
+                  <div class="leftClock">
+                    <img
+                      src="../images/index/clock-red.png"
+                      alt="Hours Icon"
+                      title="Hours"
+                    />
+                    <p><span>Working Hours</span> Mon-Fri: 9am - 7pm</p>
+                  </div>
+                  <div class="rightPhone">
+                    <img
+                      src="../images/index/phone-red.png"
+                      alt="Phone Icon"
+                      title="Phone"
+                    />
+                    <p>
+                      <span
+                        ><a href="tel:(239)778-6592"
+                          >Call Us: (239) 778-6592</a
+                        ></span
+                      >
+                      A Florida Corporation
+                    </p>
+                  </div>
+                </div>
+
+                <div class="footRightMenu">
+                  <ul>
+                    <li class="mphone">
+                      <a href="tel:(239)778-6592">(239) 778-6592</a>
+                    </li>
+                    <li class="maddress">A Florida Corporation</li>
+                    <li class="mhours">Mon-Fri: 9am - 7pm</li>
+
+                    <li class="mlinks">
+                      <a href="/how-it-works/">how it works</a>
+                    </li>
+                    <li class="mlinks"><a href="/pricing/">pricing</a></li>
+                    <li class="mlinks"><a href="/google-ads/">marketing</a></li>
+                    <li class="mlinks"><a href="/our-work/">our work</a></li>
+                    <li class="mlinks"><a href="/our-team/">our team</a></li>
+                    <li class="mlinks last"><a href="/contact/">contact</a></li>
+                    <li class="mlinks2"><a href="about.php">About</a></li>
+                    <li class="mlinks2"><a href="glossary.php">Glossary</a></li>
+                    <li class="mlinks2">
+                      <a href="reviewus.php">Review Us</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="terms-of-service.php">Terms of service</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copy">
+          <p>&copy; Raptor Media</p>
+        </div>
+      </footer>
+
+      <div class="outerSticky">
+        <div class="stickyFooter">
+          <!-- Start of stickyFooter -->
+          <div class="innerStickyFooter">
+            <!-- Start of innerStickyFooter -->
+            <div class="centeringSticky">
+              <!-- Start of centeringSticky -->
+              <div class="sticky1">
+                <a
+                  href="tel:(239)778-6592"
+                  itemscope=""
+                  itemtype="http://schema.org/LocalBusiness"
+                >
+                  <img
+                    src="../images/icon-smart-phone.svg"
+                    alt="Icon smartphone"
+                    title="Smartphone"
+                  />
+                  <p itemprop="telephone">Call (239) 778-6592</p>
+                </a>
+              </div>
+            </div>
+            <!-- End of centeringSticky -->
+          </div>
+          <!-- End of innerStickyFooter -->
+        </div>
+        <!-- End of stickyFooter -->
+      </div>
+
+      <a href="#0" class="to-top">to top</a>
     </div>
-</body>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/simpleMobileMenu.js" defer></script>
+    <script src="../js/totop.js" defer></script>
+    <script src="../js/scriptnew.js"></script>
+  </body>
 </html>

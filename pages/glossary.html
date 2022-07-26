@@ -1,409 +1,533 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style/style.css" />
-    
-    <title>Raptor Media | Web Design &bull; друкована реклама &bull; Marketing</title>
-</head>
-<body>
+
+    <title>
+      Raptor Media | Web Design &bull; друкована реклама &bull; Marketing
+    </title>
+  </head>
+  <body>
     <div class="bodyFrame">
-    
-    
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $(window).on('scroll resize touchmove', function () {
-                    if ($(window).scrollTop() > 45) $("div.banTopWrap").addClass("fixed");
-                    else $("div.banTopWrap").removeClass("fixed");
-                });
-            });
-        </script>
-        <style type="text/css">
-            main {
-                margin-top: 120px;
-            }
-    
-            header .banTopWrap {
-                position: fixed;
-                top: 0;
-            }
-    
-            header .banTopWrap .logoTopSub,
-            header .banTopWrap .banTop,
-            header .logoTopSub img {
-                transition: height 0.5s ease 0s;
-            }
-    
-            .banTopWrap.fixed {
-                background-color: white;
-                border-bottom: 1px solid #004271;
-            }
-    
-            .banTopWrap.fixed .logoTopSub,
-            .banTopWrap.fixed .banTop {
-                height: 50px;
-            }
-    
-            .banTopWrap.fixed .logoTopSub img {
-                height: 40px;
-                margin-top: 5px;
-            }
-    
-            @media only screen and (max-width: 1023px) {
-                main {
-                    margin-top: 0;
-                }
-    
-                header {
-                    line-height: normal;
-                }
-    
-                header .banTopWrap {
-                    z-index: 9999;
-                }
-    
-                .banTopWrap.fixed .logoTopSub img {
-                    height: 56px;
-                    margin-top: 0;
-                }
-    
-                .banTopWrap.fixed .logoTopSub,
-                .banTopWrap.fixed .banTop {
-                    height: 60px;
-                }
-            }
-    
-            @media only screen and (max-width: 479px) {
-                .banTopWrap.fixed .logoTopSub img {
-                    height: 48px;
-                }
-            }
-        </style>
-<header class="tnew">
-    <div class="banTopWrap">
-        <div class="banTop" data-aos="fade-in" data-aos-duration="1000">
-            <div class="logoTop"><a href="/"><img src="./images/logo/raptor-media-logo-mobile-top.png"
-                        alt="Raptor Media Logo" title="Raptor Media"></a></div>
-            <div class="logoMobTop"><a href="/"><img src="./images/logo/raptor-media-logo-mobile-top.png"
-                        alt="Raptor Media Logo" title="Raptor Media"></a></div>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $(window).on("scroll resize touchmove", function () {
+            if ($(window).scrollTop() > 45)
+              $("div.banTopWrap").addClass("fixed");
+            else $("div.banTopWrap").removeClass("fixed");
+          });
+        });
+      </script>
+      <style type="text/css">
+        main {
+          margin-top: 120px;
+        }
+
+        header .banTopWrap {
+          position: fixed;
+          top: 0;
+        }
+
+        header .banTopWrap .logoTopSub,
+        header .banTopWrap .banTop,
+        header .logoTopSub img {
+          transition: height 0.5s ease 0s;
+        }
+
+        .banTopWrap.fixed {
+          background-color: white;
+          border-bottom: 1px solid #004271;
+        }
+
+        .banTopWrap.fixed .logoTopSub,
+        .banTopWrap.fixed .banTop {
+          height: 50px;
+        }
+
+        .banTopWrap.fixed .logoTopSub img {
+          height: 40px;
+          margin-top: 5px;
+        }
+
+        @media only screen and (max-width: 1023px) {
+          main {
+            margin-top: 0;
+          }
+
+          header {
+            line-height: normal;
+          }
+
+          header .banTopWrap {
+            z-index: 9999;
+          }
+
+          .banTopWrap.fixed .logoTopSub img {
+            height: 56px;
+            margin-top: 0;
+          }
+
+          .banTopWrap.fixed .logoTopSub,
+          .banTopWrap.fixed .banTop {
+            height: 60px;
+          }
+        }
+
+        @media only screen and (max-width: 479px) {
+          .banTopWrap.fixed .logoTopSub img {
+            height: 48px;
+          }
+        }
+      </style>
+      <header class="tnew">
+        <div class="banTopWrap">
+          <div class="banTop" data-aos="fade-in" data-aos-duration="1000">
+            <div class="logoTop">
+              <a href="/"
+                ><img
+                  src="../images/logo/raptor-media-logo-mobile-top.png"
+                  alt="Raptor Media Logo"
+                  title="Raptor Media"
+              /></a>
+            </div>
+            <div class="logoMobTop">
+              <a href="/"
+                ><img
+                  src="../images/logo/raptor-media-logo-mobile-top.png"
+                  alt="Raptor Media Logo"
+                  title="Raptor Media"
+              /></a>
+            </div>
             <div class="navTop">
-                <nav>
-                    <div class="menu">
-                        <button class="smobitrigger" aria-expanded="false">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </button>
-                        <ul class="mobimenu">
-                            <li class="mphone">
-                                <a href="tel:(239)778-6592">(239) 778-6592</a>
-                            </li>
-                            <li class="maddress">
-                                Корпорація Флориди</li>
-                            <li class="mhours">
-                                Mon-Fri: 9am - 7pm</li>
+              <nav>
+                <div class="menu">
+                  <button class="smobitrigger" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+                  <ul class="mobimenu">
+                    <li class="mphone">
+                      <a href="tel:(239)778-6592">(239) 778-6592</a>
+                    </li>
+                    <li class="maddress">Корпорація Флориди</li>
+                    <li class="mhours">Mon-Fri: 9am - 7pm</li>
 
-                            <li class="mlinks"><a href="../pages/how-it-works.html">як це працює</a></li>
-                            <li class="mlinks"><a href="../pages/pricing.html">прайс</a></li>
-                            <li class="mlinks"><a href="../pages/marketing.html">маркетинг</a></li>
-                            <li class="mlinks"><a href="../pages/our-work.html">наші роботи</a></li>
-                            <li class="mlinks"><a href="../pages/our-team.html">команда</a></li>
-                            <li class="mlinks last"><a href="../pages/contact.html">контакти</a></li>
-                            <li class="mlinks2"><a href="../pages/about.html">Про нас</a></li>
-                            <li class="mlinks2"><a href="../pages/glossary.html">Глосарій</a></li>
-                            <li class="mlinks2"><a href="../pages/reviewus.html">Review Us</a></li>
-                            <li class="mlinks2"><a href="../pages/terms-of-service.php">Умови обслуговування</a></li>
-                        </ul>
-                        <div class="mobimenu-overlay"></div>
-                    </div>
-                </nav>
+                    <li class="mlinks">
+                      <a href="../pages/how-it-works.html">як це працює</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/pricing.html">прайс</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/marketing.html">маркетинг</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/our-work.html">наші роботи</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/our-team.html">команда</a>
+                    </li>
+                    <li class="mlinks last">
+                      <a href="../pages/contact.html">контакти</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/about.html">Про нас</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/glossary.html">Глосарій</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/reviewus.html">Review Us</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/terms-of-service.php"
+                        >Умови обслуговування</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="mobimenu-overlay"></div>
+                </div>
+              </nav>
             </div>
+          </div>
         </div>
-    </div>
-</header>
-    
-    
-        <!-- begin content -->
-        <main>
-    
-            <section>
-                <div class="pageFull">
-                    <div class="pageSub subadd">
-                        <h3>glossary</h3>
-                    </div>
-                </div>
-            </section>
-    
-            <section>
-                <div class="pageFull">
-                    <div class="pageGloss ncopbg">
-                        <div class="npriWrap">
-                            <dl>
-                                <dt>CMS</dt>
-                                <dd>A content management system (CMS) is a computer application that supports the creation
-                                    and modification of digital content. It typically supports multiple users in a
-                                    collaborative environment.</dd>
-                            </dl>
-                            <dl>
-                                <dt>DNS</dt>
-                                <dd>The Domain Name System (DNS) is a hierarchical decentralized naming system for
-                                    computers, services, or other resources connected to the Internet or a private network.
-                                    It associates various information with domain names assigned to each of the
-                                    participating entities. Most prominently, it translates more readily memorized domain
-                                    names to the numerical IP addresses needed for locating and identifying computer
-                                    services and devices with the underlying network protocols. </dd>
-                            </dl>
-    
-                            <dl>
-                                <dt>Domain Name</dt>
-                                <dd>A domain name is an identification string that defines a realm of administrative
-                                    autonomy, authority or control within the Internet. Domain names are formed by the rules
-                                    and procedures of the Domain Name System (DNS). Any name registered in the DNS is a
-                                    domain name. Domain names are used in various networking contexts and
-                                    application-specific naming and addressing purposes. In general, a domain name
-                                    represents an Internet Protocol (IP) resource, such as a personal computer used to
-                                    access the Internet, a server computer hosting a web site, or the web site itself or any
-                                    other service communicated via the Internet.</dd>
-                            </dl>
-    
-    
-    
-    
-                            <dl>
-                                <dt>graphic designer</dt>
-                                <dd>A graphic designer is a professional within the graphic design and graphic arts industry
-                                    who assembles together images, typography, or motion graphics to create a piece of
-                                    design. A graphic designer creates the graphics primarily for published, printed or
-                                    electronic media, such as brochures (sometimes) and advertising. They are also sometimes
-                                    responsible for typesetting, illustration, user interfaces, and web design. A core
-                                    responsibility of the designer's job is to present information in a way that is both
-                                    accessible and memorable.</dd>
-                            </dl>
-    
-    
-                            <dl>
-                                <dt>organic rank</dt>
-                                <dd>Organic search is a method for entering one or a plurality of search items in a single
-                                    data string into a search engine. Organic search results are listings on search engine
-                                    results pages that appear because of their relevance to the search terms, as opposed to
-                                    their being advertisements. In contrast, non-organic search results may include pay per
-                                    click advertising.</dd>
-                            </dl>
-    
-                            <dl>
-                                <dt>PPC</dt>
-                                <dd>Pay-per-click (PPC), also known as cost per click (CPC), is an internet advertising
-                                    model used to direct traffic to websites, in which an advertiser pays a publisher
-                                    (typically a website owner or a network of websites) when the ad is clicked.</dd>
-                            </dl>
-    
-    
-                            <dl>
-                                <dt>ROI</dt>
-                                <dd>Return on Investment (ROI) is the ratio between the net profit and cost of investment
-                                    resulting from an investment of some resource. A high ROI means the investment's gains
-                                    compare favorably to its cost. As a performance measure, ROI is used to evaluate the
-                                    efficiency of an investment or to compare the efficiencies of several different
-                                    investments. In purely economic terms, it is one way of relating profits to capital
-                                    invested.</dd>
-                            </dl>
-    
-                            <dl>
-                                <dt>search engine</dt>
-                                <dd>Search engines are programs that search documents for specified keywords and returns a
-                                    list of the documents where the keywords were found.</dd>
-                            </dl>
-    
-                            <dl>
-                                <dt>SEM</dt>
-                                <dd>Search engine marketing (SEM) is a form of Internet marketing that involves the
-                                    promotion of websites by increasing their visibility in search engine results pages
-                                    (SERPs) primarily through paid advertising. SEM may incorporate search engine
-                                    optimization (SEO), which adjusts or rewrites website content and site architecture to
-                                    achieve a higher ranking in search engine results pages to enhance pay per click (PPC)
-                                    listings.</dd>
-                            </dl>
-    
-                            <dl>
-                                <dt>SEO</dt>
-                                <dd>Search engine optimization (SEO) is the process of affecting the online visibility of a
-                                    website or a web page in a web search engine's unpaid results-often referred to as
-                                    "natural", "organic", or "earned" results. In general, the earlier (or higher ranked on
-                                    the search results page), and more frequently a website appears in the search results
-                                    list, the more visitors it will receive from the search engine's users; these visitors
-                                    can then be converted into customers. SEO differs from local search engine optimization
-                                    in that the latter is focused on optimizing a business' online presence so that its web
-                                    pages will be displayed by search engines when a user enters a local search for its
-                                    products or services. </dd>
-                            </dl>
-    
-                            <dl>
-                                <dt>SSL</dt>
-                                <dd>SSL (Secure Sockets Layer) is the standard security technology for establishing an
-                                    encrypted link between a web server and a browser. This link ensures that all data
-                                    passed between the web server and browsers remain private and integral. SSL is an
-                                    industry standard and is used by millions of websites in the protection of their online
-                                    transactions with their customers.</dd>
-                            </dl>
-    
-                            <dl>
-                                <dt>web browser</dt>
-                                <dd>A web browser (commonly referred to as a browser) is a software application for
-                                    retrieving, presenting and traversing information resources on the World Wide Web. An
-                                    information resource is identified by a Uniform Resource Identifier (URI/URL) that may
-                                    be a web page, image, video or other piece of content. Hyperlinks present in resources
-                                    enable users easily to navigate their browsers to related resources.</dd>
-                            </dl>
-    
-                            <dl>
-                                <dt>web server</dt>
-                                <dd>A web server is a computer system that processes requests via HTTP, the basic network
-                                    protocol used to distribute information on the World Wide Web. The term can refer to the
-                                    entire system, or specifically to the software that accepts and supervises the HTTP
-                                    requests.</dd>
-                            </dl>
-    
-                            <dl>
-                                <dt>website designer</dt>
-                                <dd>A web designer is someone who is both creative and technically inclined, and uses both
-                                    these attributes to build or redesign websites. The web designer has the ability to
-                                    understand what is needed to make a website functional and easy to use, but at the same
-                                    time make it aesthetically appealing to the user. </dd>
-                            </dl>
-    
-                            <dl>
-                                <dt>website developer</dt>
-                                <dd>A web developer is a programmer who specializes in, or is specifically engaged in, the
-                                    development of World Wide Web applications, or applications that are run over HTTP from
-                                    a web server to a web browser. Web developers typically handle both server-side and
-                                    front-end logic. This usually involves implementing all the visual elements that users
-                                    see and use in the web application, as well as all the web services and APIs that are
-                                    necessary to power the front-end.</dd>
-                            </dl>
-    
-                            <dl>
-                                <dt>website hosting</dt>
-                                <dd>A web hosting service is a type of Internet hosting service that allows individuals and
-                                    organizations to make their website accessible via the World Wide Web. Web hosts are
-                                    companies that provide space on a server owned or leased for use by clients, as well as
-                                    providing Internet connectivity, typically in a data center.</dd>
-                            </dl>
-    
-    
-    
-    
-                        </div>
-                    </div>
-                </div>
-            </section>
-    
-    
-    
-    
-        </main>
-        <!-- end content -->
-    
-    
-    
-        <footer>
-            <div class="pageFull foobg">
-                <div class="footSize">
-    
-                    <div class="footWrapper">
-                        <div class="footLeft">
-                            <div class="footLogo">
-                                <a href="/" title="home"><img src="/images/logo/raptor-media-logo-mobile-footer.png"
-                                        alt="Raptor Media Logo" title="Raptor Media"></a>
-                            </div>
-                            <div class="footLeftMenu">
-                                <ul>
-                                    <li class="mlinks"><a href="/portfolio-logo-design/">portfolio logo design</a></li>
-                                    <li class="mlinks"><a href="/portfolio-social-media/">portfolio social media</a></li>
-                                    <li class="mlinks"><a href="/google-ads/">google ads</a></li>
-                                    <li class="mlinks"><a href="/about/">about</a></li>
-                                    <li class="mlinks"><a href="/glossary/">glossary</a></li>
-                                    <li class="mlinks"><a href="/review-us/">review us</a></li>
-                                    <li class="mlinks"><a href="/terms-of-service/">Terms of service</a></li>
-                                </ul>
-                            </div>
-                        </div>
-    
-                        <div class="footRight">
-                            <div class="footRightIn">
-                                <div class="leftClock">
-                                    <img src="/images/index/clock-red.png" alt="Hours Icon" title="Hours">
-                                    <p><span>Working Hours</span> Mon-Fri: 9am - 7pm</p>
-                                </div>
-                                <div class="rightPhone">
-                                    <img src="/images/index/phone-red.png" alt="Phone Icon" title="Phone">
-                                    <p><span><a href="tel:(239)778-6592">Call Us: (239) 778-6592</a></span> A Florida
-                                        Corporation</p>
-                                </div>
-                            </div>
-    
-                            <div class="footRightMenu">
-                                <ul>
-                                    <li class="mphone">
-                                        <a href="tel:(239)778-6592">(239) 778-6592</a>
-                                    </li>
-                                    <li class="maddress">
-                                        A Florida Corporation</li>
-                                    <li class="mhours">
-                                        Mon-Fri: 9am - 7pm</li>
-    
-                                    <li class="mlinks"><a href="/how-it-works/">how it works</a></li>
-                                    <li class="mlinks"><a href="/pricing/">pricing</a></li>
-                                    <li class="mlinks"><a href="/google-ads/">marketing</a></li>
-                                    <li class="mlinks"><a href="/our-work/">our work</a></li>
-                                    <li class="mlinks"><a href="/our-team/">our team</a></li>
-                                    <li class="mlinks last"><a href="/contact/">contact</a></li>
-                                    <li class="mlinks2"><a href="about.php">About</a></li>
-                                    <li class="mlinks2"><a href="glossary.php">Glossary</a></li>
-                                    <li class="mlinks2"><a href="reviewus.php">Review Us</a></li>
-                                    <li class="mlinks2"><a href="terms-of-service.php">Terms of service</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-    
-    
-                </div>
-            </div>
-            <div class="copy">
-                <p>&copy; Raptor Media</p>
-            </div>
-        </footer>
-    
-    
-        <div class="outerSticky">
-            <div class="stickyFooter">
-                <!-- Start of stickyFooter -->
-                <div class="innerStickyFooter">
-                    <!-- Start of innerStickyFooter -->
-                    <div class="centeringSticky">
-                        <!-- Start of centeringSticky -->
-                        <div class="sticky1">
-                            <a href="tel:(239)778-6592" itemscope="" itemtype="http://schema.org/LocalBusiness">
-                                <img src="/images/icon-smart-phone.svg" alt="Icon smartphone" title="Smartphone">
-                                <p itemprop="telephone">Call (239) 778-6592</p>
-                            </a>
-                        </div>
-                    </div><!-- End of centeringSticky -->
-                </div><!-- End of innerStickyFooter -->
-            </div><!-- End of stickyFooter -->
-        </div>
-    
-        <a href="#0" class="to-top">to top</a>
-    
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
-        <script src="/js/scriptnew.js"></script>
-    
-    
-    </div>
+      </header>
 
-</body>
+      <!-- begin content -->
+      <main>
+        <section>
+          <div class="pageFull">
+            <div class="pageSub subadd">
+              <h3>glossary</h3>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="pageFull">
+            <div class="pageGloss ncopbg">
+              <div class="npriWrap">
+                <dl>
+                  <dt>CMS</dt>
+                  <dd>
+                    A content management system (CMS) is a computer application
+                    that supports the creation and modification of digital
+                    content. It typically supports multiple users in a
+                    collaborative environment.
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>DNS</dt>
+                  <dd>
+                    The Domain Name System (DNS) is a hierarchical decentralized
+                    naming system for computers, services, or other resources
+                    connected to the Internet or a private network. It
+                    associates various information with domain names assigned to
+                    each of the participating entities. Most prominently, it
+                    translates more readily memorized domain names to the
+                    numerical IP addresses needed for locating and identifying
+                    computer services and devices with the underlying network
+                    protocols.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>Domain Name</dt>
+                  <dd>
+                    A domain name is an identification string that defines a
+                    realm of administrative autonomy, authority or control
+                    within the Internet. Domain names are formed by the rules
+                    and procedures of the Domain Name System (DNS). Any name
+                    registered in the DNS is a domain name. Domain names are
+                    used in various networking contexts and application-specific
+                    naming and addressing purposes. In general, a domain name
+                    represents an Internet Protocol (IP) resource, such as a
+                    personal computer used to access the Internet, a server
+                    computer hosting a web site, or the web site itself or any
+                    other service communicated via the Internet.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>graphic designer</dt>
+                  <dd>
+                    A graphic designer is a professional within the graphic
+                    design and graphic arts industry who assembles together
+                    images, typography, or motion graphics to create a piece of
+                    design. A graphic designer creates the graphics primarily
+                    for published, printed or electronic media, such as
+                    brochures (sometimes) and advertising. They are also
+                    sometimes responsible for typesetting, illustration, user
+                    interfaces, and web design. A core responsibility of the
+                    designer's job is to present information in a way that is
+                    both accessible and memorable.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>organic rank</dt>
+                  <dd>
+                    Organic search is a method for entering one or a plurality
+                    of search items in a single data string into a search
+                    engine. Organic search results are listings on search engine
+                    results pages that appear because of their relevance to the
+                    search terms, as opposed to their being advertisements. In
+                    contrast, non-organic search results may include pay per
+                    click advertising.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>PPC</dt>
+                  <dd>
+                    Pay-per-click (PPC), also known as cost per click (CPC), is
+                    an internet advertising model used to direct traffic to
+                    websites, in which an advertiser pays a publisher (typically
+                    a website owner or a network of websites) when the ad is
+                    clicked.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>ROI</dt>
+                  <dd>
+                    Return on Investment (ROI) is the ratio between the net
+                    profit and cost of investment resulting from an investment
+                    of some resource. A high ROI means the investment's gains
+                    compare favorably to its cost. As a performance measure, ROI
+                    is used to evaluate the efficiency of an investment or to
+                    compare the efficiencies of several different investments.
+                    In purely economic terms, it is one way of relating profits
+                    to capital invested.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>search engine</dt>
+                  <dd>
+                    Search engines are programs that search documents for
+                    specified keywords and returns a list of the documents where
+                    the keywords were found.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>SEM</dt>
+                  <dd>
+                    Search engine marketing (SEM) is a form of Internet
+                    marketing that involves the promotion of websites by
+                    increasing their visibility in search engine results pages
+                    (SERPs) primarily through paid advertising. SEM may
+                    incorporate search engine optimization (SEO), which adjusts
+                    or rewrites website content and site architecture to achieve
+                    a higher ranking in search engine results pages to enhance
+                    pay per click (PPC) listings.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>SEO</dt>
+                  <dd>
+                    Search engine optimization (SEO) is the process of affecting
+                    the online visibility of a website or a web page in a web
+                    search engine's unpaid results-often referred to as
+                    "natural", "organic", or "earned" results. In general, the
+                    earlier (or higher ranked on the search results page), and
+                    more frequently a website appears in the search results
+                    list, the more visitors it will receive from the search
+                    engine's users; these visitors can then be converted into
+                    customers. SEO differs from local search engine optimization
+                    in that the latter is focused on optimizing a business'
+                    online presence so that its web pages will be displayed by
+                    search engines when a user enters a local search for its
+                    products or services.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>SSL</dt>
+                  <dd>
+                    SSL (Secure Sockets Layer) is the standard security
+                    technology for establishing an encrypted link between a web
+                    server and a browser. This link ensures that all data passed
+                    between the web server and browsers remain private and
+                    integral. SSL is an industry standard and is used by
+                    millions of websites in the protection of their online
+                    transactions with their customers.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>web browser</dt>
+                  <dd>
+                    A web browser (commonly referred to as a browser) is a
+                    software application for retrieving, presenting and
+                    traversing information resources on the World Wide Web. An
+                    information resource is identified by a Uniform Resource
+                    Identifier (URI/URL) that may be a web page, image, video or
+                    other piece of content. Hyperlinks present in resources
+                    enable users easily to navigate their browsers to related
+                    resources.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>web server</dt>
+                  <dd>
+                    A web server is a computer system that processes requests
+                    via HTTP, the basic network protocol used to distribute
+                    information on the World Wide Web. The term can refer to the
+                    entire system, or specifically to the software that accepts
+                    and supervises the HTTP requests.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>website designer</dt>
+                  <dd>
+                    A web designer is someone who is both creative and
+                    technically inclined, and uses both these attributes to
+                    build or redesign websites. The web designer has the ability
+                    to understand what is needed to make a website functional
+                    and easy to use, but at the same time make it aesthetically
+                    appealing to the user.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>website developer</dt>
+                  <dd>
+                    A web developer is a programmer who specializes in, or is
+                    specifically engaged in, the development of World Wide Web
+                    applications, or applications that are run over HTTP from a
+                    web server to a web browser. Web developers typically handle
+                    both server-side and front-end logic. This usually involves
+                    implementing all the visual elements that users see and use
+                    in the web application, as well as all the web services and
+                    APIs that are necessary to power the front-end.
+                  </dd>
+                </dl>
+
+                <dl>
+                  <dt>website hosting</dt>
+                  <dd>
+                    A web hosting service is a type of Internet hosting service
+                    that allows individuals and organizations to make their
+                    website accessible via the World Wide Web. Web hosts are
+                    companies that provide space on a server owned or leased for
+                    use by clients, as well as providing Internet connectivity,
+                    typically in a data center.
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- end content -->
+
+      <footer>
+        <div class="pageFull foobg">
+          <div class="footSize">
+            <div class="footWrapper">
+              <div class="footLeft">
+                <div class="footLogo">
+                  <a href="/" title="home"
+                    ><img
+                      src="../images/logo/raptor-media-logo-mobile-footer.png"
+                      alt="Raptor Media Logo"
+                      title="Raptor Media"
+                  /></a>
+                </div>
+                <div class="footLeftMenu">
+                  <ul>
+                    <li class="mlinks">
+                      <a href="/portfolio-logo-design/"
+                        >portfolio logo design</a
+                      >
+                    </li>
+                    <li class="mlinks">
+                      <a href="/portfolio-social-media/"
+                        >portfolio social media</a
+                      >
+                    </li>
+                    <li class="mlinks">
+                      <a href="/google-ads/">google ads</a>
+                    </li>
+                    <li class="mlinks"><a href="/about/">about</a></li>
+                    <li class="mlinks"><a href="/glossary/">glossary</a></li>
+                    <li class="mlinks"><a href="/review-us/">review us</a></li>
+                    <li class="mlinks">
+                      <a href="/terms-of-service/">Terms of service</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footRight">
+                <div class="footRightIn">
+                  <div class="leftClock">
+                    <img
+                      src="../images/index/clock-red.png"
+                      alt="Hours Icon"
+                      title="Hours"
+                    />
+                    <p><span>Working Hours</span> Mon-Fri: 9am - 7pm</p>
+                  </div>
+                  <div class="rightPhone">
+                    <img
+                      src="../images/index/phone-red.png"
+                      alt="Phone Icon"
+                      title="Phone"
+                    />
+                    <p>
+                      <span
+                        ><a href="tel:(239)778-6592"
+                          >Call Us: (239) 778-6592</a
+                        ></span
+                      >
+                      A Florida Corporation
+                    </p>
+                  </div>
+                </div>
+
+                <div class="footRightMenu">
+                  <ul>
+                    <li class="mphone">
+                      <a href="tel:(239)778-6592">(239) 778-6592</a>
+                    </li>
+                    <li class="maddress">A Florida Corporation</li>
+                    <li class="mhours">Mon-Fri: 9am - 7pm</li>
+
+                    <li class="mlinks">
+                      <a href="/how-it-works/">how it works</a>
+                    </li>
+                    <li class="mlinks"><a href="/pricing/">pricing</a></li>
+                    <li class="mlinks"><a href="/google-ads/">marketing</a></li>
+                    <li class="mlinks"><a href="/our-work/">our work</a></li>
+                    <li class="mlinks"><a href="/our-team/">our team</a></li>
+                    <li class="mlinks last"><a href="/contact/">contact</a></li>
+                    <li class="mlinks2"><a href="about.php">About</a></li>
+                    <li class="mlinks2"><a href="glossary.php">Glossary</a></li>
+                    <li class="mlinks2">
+                      <a href="reviewus.php">Review Us</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="terms-of-service.php">Terms of service</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copy">
+          <p>&copy; Raptor Media</p>
+        </div>
+      </footer>
+
+      <div class="outerSticky">
+        <div class="stickyFooter">
+          <!-- Start of stickyFooter -->
+          <div class="innerStickyFooter">
+            <!-- Start of innerStickyFooter -->
+            <div class="centeringSticky">
+              <!-- Start of centeringSticky -->
+              <div class="sticky1">
+                <a
+                  href="tel:(239)778-6592"
+                  itemscope=""
+                  itemtype="http://schema.org/LocalBusiness"
+                >
+                  <img
+                    src="../images/icon-smart-phone.svg"
+                    alt="Icon smartphone"
+                    title="Smartphone"
+                  />
+                  <p itemprop="telephone">Call (239) 778-6592</p>
+                </a>
+              </div>
+            </div>
+            <!-- End of centeringSticky -->
+          </div>
+          <!-- End of innerStickyFooter -->
+        </div>
+        <!-- End of stickyFooter -->
+      </div>
+
+      <a href="#0" class="to-top">to top</a>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/simpleMobileMenu.js" defer></script>
+    <script src="../js/totop.js" defer></script>
+    <script src="../js/scriptnew.js"></script>
+  </body>
 </html>
