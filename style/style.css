@@ -2663,7 +2663,7 @@ h1.banCenH1 span a {
 
 .leftClock p,
 .rightPhone p {
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 300;
 }
 
@@ -9944,7 +9944,7 @@ select::-ms-expand {
 
   .leftClock p span,
   .rightPhone p span {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .leftClock p,
@@ -11010,10 +11010,15 @@ select::-ms-expand {
     width: 300px;
   }
 
-  .leftClock p span,
-  .rightPhone p span {
+
+  /* .rightPhone p span {
     font-size: 28px;
   }
+
+    .leftClock p span
+     {
+      font-size: 28px;
+    } */
 
   .leftClock p,
   .rightPhone p {
