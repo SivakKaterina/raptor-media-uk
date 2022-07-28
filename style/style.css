@@ -80,6 +80,51 @@ input[type="submit"] {
 }
 
 /*========================================================
+                      head
+=========================================================*/
+
+header.tnew .banTopWrap {
+  position: fixed;
+  top: 0;
+}
+
+header.tnew .banTopWrap .logoTop,
+header.tnew .banTopWrap .banTop,
+header.tnew .logoTop img {
+  transition: height 0.5s ease 0s;
+}
+
+.banTopWrap.fixed {
+  background-color: white;
+  border-bottom: 1px solid #004271;
+}
+
+.banTopWrap.fixed .logoTop,
+.banTopWrap.fixed .banTop {
+  height: 50px;
+}
+
+.banTopWrap.fixed .logoTop img {
+  height: 40px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1023px) {
+  header.tnew {
+    line-height: normal;
+  }
+
+  header.tnew .banTopWrap {
+    z-index: 9999;
+  }
+
+  .banTopWrap.fixed .logoTop,
+  .banTopWrap.fixed .banTop {
+    height: 60px;
+  }
+}
+
+/*========================================================
                       Main Styles
 =========================================================*/
 body {
@@ -11009,7 +11054,6 @@ select::-ms-expand {
   .footLogo img {
     width: 300px;
   }
-
 
   /* .rightPhone p span {
     font-size: 28px;
