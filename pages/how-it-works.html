@@ -1,363 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Raptor Media | Web Design &bull; Print Media &bull; Marketing</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../style/style.css" />
-  <title>Raptor Media | Web Design &bull; Print Media &bull; Marketing</title>
-</head>
-
-<body>
-
-  <div class="bodyFrame">
-        <script type="text/javascript">
-          $(document).ready(function () {
-            $(window).on("scroll resize touchmove", function () {
-              if ($(window).scrollTop() > 45)
-                $("div.banTopWrap").addClass("fixed");
-              else $("div.banTopWrap").removeClass("fixed");
-            });
-          });
-        </script>
-        <style type="text/css">
-          header.tnew .banTopWrap {
-            position: fixed;
-            top: 0;
-          }
-
-          header.tnew .banTopWrap .logoTop,
-          header.tnew .banTopWrap .banTop,
-          header.tnew .logoTop img {
-            transition: height 0.5s ease 0s;
-          }
-
-          .banTopWrap.fixed {
-            background-color: white;
-            border-bottom: 1px solid #004271;
-          }
-
-          .banTopWrap.fixed .logoTop,
-          .banTopWrap.fixed .banTop {
-            height: 50px;
-          }
-
-          .banTopWrap.fixed .logoTop img {
-            height: 40px;
-            margin-top: 5px;
-          }
-
-          @media only screen and (max-width: 1023px) {
-            header.tnew {
-              line-height: normal;
-            }
-
-            header.tnew .banTopWrap {
-              z-index: 9999;
-            }
-
-            .banTopWrap.fixed .logoTop,
-            .banTopWrap.fixed .banTop {
-              height: 60px;
-            }
-          }
-        </style> 
-  <header class="tnew">
-    <div class="banTopWrap">
-      <div class="banTop" data-aos="fade-in" data-aos-duration="1000">
-        <div class="logoTop"><a href="../index.html"><img src="../images/logo/raptor-media-logo-mobile-top.png" alt="Raptor Media Logo"
-              title="Raptor Media"></a></div>
-        <div class="logoMobTop"><a href="../index.html"><img src="../images/logo/raptor-media-logo-mobile-top.png"
-              alt="Raptor Media Logo" title="Raptor Media"></a></div>
-        <div class="navTop">
-          <nav>
-            <div class="menu">
-              <button class="smobitrigger" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-              </button>
-              <ul class="mobimenu">
-                <li class="mphone">
-                  <a href="tel:(239)778-6592">(239) 778-6592</a>
-                </li>
-                <li class="maddress">
-                  Корпорація Флориди</li>
-                <li class="mhours">
-                  Mon-Fri: 9am - 7pm</li>
-  
-                <li class="mlinks"><a href="../pages/how-it-works.html">як це працює</a></li>
-                <li class="mlinks"><a href="../pages/pricing.html">прайс</a></li>
-                <li class="mlinks"><a href="../pages/marketing.html">маркетинг</a></li>
-                <li class="mlinks"><a href="../pages/our-work.html">наші роботи</a></li>
-                <li class="mlinks"><a href="../pages/our-team.html">команда</a></li>
-                <li class="mlinks last"><a href="../pages/contact.html">контакти</a></li>
-                <li class="mlinks2"><a href="../pages/about.html">Про нас</a></li>
-                <li class="mlinks2"><a href="../pages/glossary.html">Глосарій</a></li>
-                <li class="mlinks2"><a href="../pages/reviewus.html">Review Us</a></li>
-                <li class="mlinks2"><a href="../pages/terms-of-service.php">Умови обслуговування</a></li>
-              </ul>
-              <div class="mobimenu-overlay"></div>
+  <body>
+    <div class="bodyFrame">
+      <header class="tnew">
+        <div class="banTopWrap">
+          <div class="banTop" data-aos="fade-in" data-aos-duration="1000">
+            <div class="logoTop">
+              <a href="../index.html"
+                ><img
+                  src="../images/logo/raptor-media-logo-mobile-top.png"
+                  alt="Raptor Media Logo"
+                  title="Raptor Media"
+              /></a>
             </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- begin content -->
-  <main>
-    <section id="howitworksbg">
-      <div class="pageFull howitworksbg">
-        <div class="banCenWrapDesk">
-          <h1 class="banCenH1" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="200">
-            <span>
-              <a href="../pages/portfolio-websites.html">веб дизайн</a> &bull;
-              <a href="../pages/our-work.html">друкована реклама</a> &bull;
-              <a class="mobibel" href="../pages/marketing.html">маркетинг</a></span><a href="../pages/pricing.html">get found</a>
-          </h1>
-          <p>
-            <a href="../pages/pricing.html">Ми розуміємо. <br />Ви хочете більше клієнтів!</a>
-          </p>
-          <div class="bannrBtnPlace">
-            <a class="bannrBtn" href="../pages/marketing.html">Довірте це нам</a>
-          </div>
-        </div>
-
-        <div class="banCenWrapMob">
-          <img src="../images/howitworks/how-it-works-banner-mobile.jpg" alt="Get Found" title="Get Found" />
-          <h1 class="banCenH1Mob" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="200">
-            <span>
-              <a href="../pages/portfolio-websites.html">веб дизайн</a> &bull;
-              <a href="../pages/our-work.html">друкована реклама</a> &bull;
-              <a href="../pages/marketing.html">маркетинг</a></span><a href="/pricing/">get found</a>
-          </h1>
-          <p class="banmobp1">
-            <a href="../pages/pricing.html">Ми розуміємо. Ви хочете більше клієнтів! Довірте це нам.</a>
-          </p>
-          <div class="bannrBtnPlaceMob">
-            <a class="bannrBtn" href="../pages/marketing.html">Довірте це нам</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="dashspec">
-      <div class="pageFull dashSect dashSpec">
-        <div class="dashWrap">
-          <div class="dashLeft" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"
-            data-aos-offset="200">
-            <img src="../images/index/business-objective.jpg" alt="Business Goals" title="Business Goals" />
-          </div>
-
-          <div class="dashRight" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
-            data-aos-offset="200">
-            <h3 class="titleH3all">
-              <span> Яка ваша бізнес-ціль? </span> ми починаємо
-              з відкриттям<br />
-              щоб дізнатися про <br />ваші бізнес-цілі
-            </h3>
-            <p>
-              Найкращі рішення виходять із комплексу
-              оцінка вашого поточного стану та бажаного результату.
-              Ми ставимо серію запитань, які дають чітку картину.
-            </p>
-            <a class="dashSectBtn" href="../pages/portfolio-websites.html">переглянути проекти</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="dashsect">
-      <div class="pageFull dashSect2">
-        <div class="dashWrap2 reverseDashWrap2">
-          <div class="dashRight2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
-            data-aos-offset="200">
-            <h3 class="titleH3all">
-              <span>прокладаючи шлях</span> наша команда починає працювати
-            </h3>
-            <p>
-              Маючи в руках інформацію, ми починаємо роботу над розробкою найкращого
-              веб-сайт для вашої галузі на вашому цільовому ринку.
-              Наш менеджер проекту пояснить варіанти та можливості.
-              Ми правдиво пояснимо, що працює, а що ні,
-              та чому це так.
-            </p>
-            <a class="dashSectBtn" href="../pages/portfolio-websites.html">переглянути проекти</a>
-          </div>
-
-          <div class="dashLeft2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"
-            data-aos-offset="200">
-            <img src="../images/index/forging-a-path.jpg" alt="Forging A Path" title="Forging A Path" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="dashsect2">
-      <div class="pageFull dashSect">
-        <div class="dashWrap">
-          <div class="dashLeft" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"
-            data-aos-offset="200">
-            <img src="../images/index/website-presentation.jpg" alt="Website Presentation" title="Website Presentation" />
-          </div>
-
-          <div class="dashRight" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
-            data-aos-offset="200">
-            <h3 class="titleH3all">
-              <span>тематичний дизайн презентації веб-сайту</span>
-              <br />доставлено, як та обіцяли
-            </h3>
-            <p>
-              Згідно з домовленістю, ми зробимо вам чудовий дизайн,
-              відвідувачі матимуть легкий доступ до корисного вмісту
-              інтуїтивно зрозумілого, стратегічно загорнутий контактною інформацією
-              розміщені на всіх сторінках. CTA будуть домінувати в основному
-              категорії. Від А до Я ми розглянемо цей проект до кінця
-              неминучий висновок - найкраще представлення вашого
-              бізнес. <br />Звичайно, ви можете внести зміни.
-            </p>
-            <a class="dashSectBtn" href="../pages/marketing.html">переглянути проекти</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <!-- end content -->
-
-  <footer>
-    <div class="pageFull foobg">
-      <div class="footSize">
-        <div class="footWrapper">
-          <div class="footLeft">
-            <div class="footLogo">
-              <a href="../index.html" title="home"><img src="../images/logo/raptor-media-logo-mobile-footer.png"
-                  alt="Raptor Media Logo" title="Raptor Media" /></a>
+            <div class="logoMobTop">
+              <a href="../index.html"
+                ><img
+                  src="../images/logo/raptor-media-logo-mobile-top.png"
+                  alt="Raptor Media Logo"
+                  title="Raptor Media"
+              /></a>
             </div>
-            <div class="footLeftMenu">
-              <ul>
-                <li class="mlinks">
-                  <a href="../pages/portfolio-logo-design.html">дизайн логотипу портфоліо</a>
-                </li>
-                <li class="mlinks">
-                  <a href="../pages/portfolio-social-media.html">портфоліо в соціальних мережах</a>
-                </li>
-                <li class="mlinks">
-                  <a href="../pages/marketing.html">google ads</a>
-                </li>
-                <li class="mlinks">
-                  <a href="../pages/about.html">про нас</a>
-                </li>
-                <li class="mlinks">
-                  <a href="../pages/glossary.html">Глосарій</a>
-                </li>
-                <li class="mlinks">
-                  <a href="../pages/reviewus.html">review us</a>
-                </li>
-                <li class="mlinks">
-                  <a href="../pages/terms-of-service.html">Умови обслуговування</a>
-                </li>
-              </ul>
+            <div class="navTop">
+              <nav>
+                <div class="menu">
+                  <button class="smobitrigger" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+                  <ul class="mobimenu">
+                    <li class="mphone">
+                      <a href="tel:(239)778-6592">(239) 778-6592</a>
+                    </li>
+                    <li class="maddress">Корпорація Флориди</li>
+                    <li class="mhours">Mon-Fri: 9am - 7pm</li>
+
+                    <li class="mlinks">
+                      <a href="../pages/how-it-works.html">як це працює</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/pricing.html">прайс</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/marketing.html">маркетинг</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/our-work.html">наші роботи</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/our-team.html">команда</a>
+                    </li>
+                    <li class="mlinks last">
+                      <a href="../pages/contact.html">контакти</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/about.html">Про нас</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/glossary.html">Глосарій</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/reviewus.html">Review Us</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/terms-of-service.php"
+                        >Умови обслуговування</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="mobimenu-overlay"></div>
+                </div>
+              </nav>
             </div>
           </div>
-  
-          <div class="footRight">
-            <div class="footRightIn">
-              <div class="leftClock">
-                <img src="../images/index/clock-red.png" alt="Hours Icon" title="Hours" />
-                <p><span>Робочі години</span> Mon-Fri: 9am - 7pm</p>
+        </div>
+      </header>
+      <!-- begin content -->
+      <main>
+        <section id="howitworksbg">
+          <div class="pageFull howitworksbg">
+            <div class="banCenWrapDesk">
+              <h1
+                class="banCenH1"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-offset="200"
+              >
+                <span>
+                  <a href="../pages/portfolio-websites.html">веб дизайн</a>
+                  &bull;
+                  <a href="../pages/our-work.html">друкована реклама</a> &bull;
+                  <a class="mobibel" href="../pages/marketing.html"
+                    >маркетинг</a
+                  ></span
+                ><a href="../pages/pricing.html">get found</a>
+              </h1>
+              <p>
+                <a href="../pages/pricing.html"
+                  >Ми розуміємо. <br />Ви хочете більше клієнтів!</a
+                >
+              </p>
+              <div class="bannrBtnPlace">
+                <a class="bannrBtn" href="../pages/marketing.html"
+                  >Довірте це нам</a
+                >
               </div>
-              <div class="rightPhone">
-                <img src="../images/index/phone-red.png" alt="Phone Icon" title="Phone" />
+            </div>
+
+            <div class="banCenWrapMob">
+              <img
+                src="../images/howitworks/how-it-works-banner-mobile.jpg"
+                alt="Get Found"
+                title="Get Found"
+              />
+              <h1
+                class="banCenH1Mob"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-offset="200"
+              >
+                <span>
+                  <a href="../pages/portfolio-websites.html">веб дизайн</a>
+                  &bull;
+                  <a href="../pages/our-work.html">друкована реклама</a> &bull;
+                  <a href="../pages/marketing.html">маркетинг</a></span
+                ><a href="/pricing/">get found</a>
+              </h1>
+              <p class="banmobp1">
+                <a href="../pages/pricing.html"
+                  >Ми розуміємо. Ви хочете більше клієнтів! Довірте це нам.</a
+                >
+              </p>
+              <div class="bannrBtnPlaceMob">
+                <a class="bannrBtn" href="../pages/marketing.html"
+                  >Довірте це нам</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="dashspec">
+          <div class="pageFull dashSect dashSpec">
+            <div class="dashWrap">
+              <div
+                class="dashLeft"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+                data-aos-offset="200"
+              >
+                <img
+                  src="../images/index/business-objective.jpg"
+                  alt="Business Goals"
+                  title="Business Goals"
+                />
+              </div>
+
+              <div
+                class="dashRight"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+                data-aos-offset="200"
+              >
+                <h3 class="titleH3all">
+                  <span> Яка ваша бізнес-ціль? </span> ми починаємо з
+                  відкриттям<br />
+                  щоб дізнатися про <br />ваші бізнес-цілі
+                </h3>
                 <p>
-                  <span><a href="tel:(239)778-6592">Call Us: (239) 778-6592</a></span>
-                  Корпорація Флориди
+                  Найкращі рішення виходять із комплексу оцінка вашого поточного
+                  стану та бажаного результату. Ми ставимо серію запитань, які
+                  дають чітку картину.
                 </p>
+                <a class="dashSectBtn" href="../pages/portfolio-websites.html"
+                  >переглянути проекти</a
+                >
               </div>
             </div>
-  
-            <div class="footRightMenu">
-              <ul>
-                <li class="mphone">
-                  <a href="tel:(239)778-6592">(239) 778-6592</a>
-                </li>
-                <li class="maddress">Корпорація Флориди</li>
-                <li class="mhours">Mon-Fri: 9am - 7pm</li>
-  
-                <li class="mlinks">
-                  <a href="../pages/how-it-works.html">як це працює</a>
-                </li>
-                <li class="mlinks">
-                  <a href="../pages/pricing.html">прайс</a>
-                </li>
-                <li class="mlinks">
-                  <a href="../pages/marketing.html">маркетинг</a>
-                </li>
-                <li class="mlinks">
-                  <a href="../pages/our-work.html">наші роботи</a>
-                </li>
-                <li class="mlinks">
-                  <a href="../pages/our-team.html">команда</a>
-                </li>
-                <li class="mlinks last">
-                  <a href="../pages/contact.html">контакти</a>
-                </li>
-                <li class="mlinks2">
-                  <a href="../pages/about.html">Про нас</a>
-                </li>
-                <li class="mlinks2">
-                  <a href="../pages/glossary.html">Глосарій</a>
-                </li>
-                <li class="mlinks2">
-                  <a href="../pages/reviewus.html">Review Us</a>
-                </li>
-                <li class="mlinks2">
-                  <a href="../pages/terms-of-service.php">Умови обслуговування</a>
-                </li>
-              </ul>
+          </div>
+        </section>
+
+        <section id="dashsect">
+          <div class="pageFull dashSect2">
+            <div class="dashWrap2 reverseDashWrap2">
+              <div
+                class="dashRight2"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+                data-aos-offset="200"
+              >
+                <h3 class="titleH3all">
+                  <span>прокладаючи шлях</span> наша команда починає працювати
+                </h3>
+                <p>
+                  Маючи в руках інформацію, ми починаємо роботу над розробкою
+                  найкращого веб-сайт для вашої галузі на вашому цільовому
+                  ринку. Наш менеджер проекту пояснить варіанти та можливості.
+                  Ми правдиво пояснимо, що працює, а що ні, та чому це так.
+                </p>
+                <a class="dashSectBtn" href="../pages/portfolio-websites.html"
+                  >переглянути проекти</a
+                >
+              </div>
+
+              <div
+                class="dashLeft2"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+                data-aos-offset="200"
+              >
+                <img
+                  src="../images/index/forging-a-path.jpg"
+                  alt="Forging A Path"
+                  title="Forging A Path"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="dashsect2">
+          <div class="pageFull dashSect">
+            <div class="dashWrap">
+              <div
+                class="dashLeft"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+                data-aos-offset="200"
+              >
+                <img
+                  src="../images/index/website-presentation.jpg"
+                  alt="Website Presentation"
+                  title="Website Presentation"
+                />
+              </div>
+
+              <div
+                class="dashRight"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+                data-aos-offset="200"
+              >
+                <h3 class="titleH3all">
+                  <span>тематичний дизайн презентації веб-сайту</span>
+                  <br />доставлено, як та обіцяли
+                </h3>
+                <p>
+                  Згідно з домовленістю, ми зробимо вам чудовий дизайн,
+                  відвідувачі матимуть легкий доступ до корисного вмісту
+                  інтуїтивно зрозумілого, стратегічно загорнутий контактною
+                  інформацією розміщені на всіх сторінках. CTA будуть домінувати
+                  в основному категорії. Від А до Я ми розглянемо цей проект до
+                  кінця неминучий висновок - найкраще представлення вашого
+                  бізнес. <br />Звичайно, ви можете внести зміни.
+                </p>
+                <a class="dashSectBtn" href="../pages/marketing.html"
+                  >переглянути проекти</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- end content -->
+
+      <footer>
+        <div class="pageFull foobg">
+          <div class="footSize">
+            <div class="footWrapper">
+              <div class="footLeft">
+                <div class="footLogo">
+                  <a href="../index.html" title="home"
+                    ><img
+                      src="../images/logo/raptor-media-logo-mobile-footer.png"
+                      alt="Raptor Media Logo"
+                      title="Raptor Media"
+                  /></a>
+                </div>
+                <div class="footLeftMenu">
+                  <ul>
+                    <li class="mlinks">
+                      <a href="../pages/portfolio-logo-design.html"
+                        >дизайн логотипу портфоліо</a
+                      >
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/portfolio-social-media.html"
+                        >портфоліо в соціальних мережах</a
+                      >
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/marketing.html">google ads</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/about.html">про нас</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/glossary.html">Глосарій</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/reviewus.html">review us</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/terms-of-service.html"
+                        >Умови обслуговування</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footRight">
+                <div class="footRightIn">
+                  <div class="leftClock">
+                    <img
+                      src="../images/index/clock-red.png"
+                      alt="Hours Icon"
+                      title="Hours"
+                    />
+                    <p><span>Робочі години</span> Mon-Fri: 9am - 7pm</p>
+                  </div>
+                  <div class="rightPhone">
+                    <img
+                      src="../images/index/phone-red.png"
+                      alt="Phone Icon"
+                      title="Phone"
+                    />
+                    <p>
+                      <span
+                        ><a href="tel:(239)778-6592"
+                          >Call Us: (239) 778-6592</a
+                        ></span
+                      >
+                      Корпорація Флориди
+                    </p>
+                  </div>
+                </div>
+
+                <div class="footRightMenu">
+                  <ul>
+                    <li class="mphone">
+                      <a href="tel:(239)778-6592">(239) 778-6592</a>
+                    </li>
+                    <li class="maddress">Корпорація Флориди</li>
+                    <li class="mhours">Mon-Fri: 9am - 7pm</li>
+
+                    <li class="mlinks">
+                      <a href="../pages/how-it-works.html">як це працює</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/pricing.html">прайс</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/marketing.html">маркетинг</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/our-work.html">наші роботи</a>
+                    </li>
+                    <li class="mlinks">
+                      <a href="../pages/our-team.html">команда</a>
+                    </li>
+                    <li class="mlinks last">
+                      <a href="../pages/contact.html">контакти</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/about.html">Про нас</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/glossary.html">Глосарій</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/reviewus.html">Review Us</a>
+                    </li>
+                    <li class="mlinks2">
+                      <a href="../pages/terms-of-service.php"
+                        >Умови обслуговування</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="copy">
-      <p>&copy; Raptor Media</p>
-    </div>
-  </footer>
-
-  <div class="outerSticky">
-    <div class="stickyFooter">
-      <!-- Start of stickyFooter -->
-      <div class="innerStickyFooter">
-        <!-- Start of innerStickyFooter -->
-        <div class="centeringSticky">
-          <!-- Start of centeringSticky -->
-          <div class="sticky1">
-            <a href="tel:(239)778-6592" itemscope="" itemtype="http://schema.org/LocalBusiness">
-              <img src="../images/icon-smart-phone.svg" alt="Icon smartphone" title="Smartphone" />
-              <p itemprop="telephone">Call (239) 778-6592</p>
-            </a>
-          </div>
+        <div class="copy">
+          <p>&copy; Raptor Media</p>
         </div>
-        <!-- End of centeringSticky -->
+      </footer>
+
+      <div class="outerSticky">
+        <div class="stickyFooter">
+          <!-- Start of stickyFooter -->
+          <div class="innerStickyFooter">
+            <!-- Start of innerStickyFooter -->
+            <div class="centeringSticky">
+              <!-- Start of centeringSticky -->
+              <div class="sticky1">
+                <a
+                  href="tel:(239)778-6592"
+                  itemscope=""
+                  itemtype="http://schema.org/LocalBusiness"
+                >
+                  <img
+                    src="../images/icon-smart-phone.svg"
+                    alt="Icon smartphone"
+                    title="Smartphone"
+                  />
+                  <p itemprop="telephone">Call (239) 778-6592</p>
+                </a>
+              </div>
+            </div>
+            <!-- End of centeringSticky -->
+          </div>
+          <!-- End of innerStickyFooter -->
+        </div>
+        <!-- End of stickyFooter -->
       </div>
-      <!-- End of innerStickyFooter -->
+
+      <a href="#0" class="to-top">to top</a>
     </div>
-    <!-- End of stickyFooter -->
-  </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
 
-  <a href="#0" class="to-top">to top</a>
-
-  
-  </div>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
-
-<script src="../js/jquery-3.6.0.min.js"></script>
-<script src="../js/simpleMobileMenu.js" defer></script>
-<script src="../js/totop.js" defer></script>
-<script src="../js/scriptnew.js"></script>
-</body>
-
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/simpleMobileMenu.js" defer></script>
+    <script src="../js/totop.js" defer></script>
+    <script src="../js/scriptnew.js"></script>
+  </body>
 </html>

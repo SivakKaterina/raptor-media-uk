@@ -68,3 +68,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   mobileNav();
 });
+
+$(document).ready(function () {
+  $(window).on("scroll resize touchmove", function () {
+    if ($(window).scrollTop() > 45) $("div.banTopWrap").addClass("fixed");
+    else $("div.banTopWrap").removeClass("fixed");
+  });
+});
